@@ -13,6 +13,7 @@
 		360302052C26C8F700BE824E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 360302042C26C8F700BE824E /* Base */; };
 		360302072C26C8F900BE824E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360302062C26C8F900BE824E /* Assets.xcassets */; };
 		3603020A2C26C8F900BE824E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 360302092C26C8F900BE824E /* Base */; };
+		360302182C26C9FB00BE824E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360302172C26C9FB00BE824E /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		360302062C26C8F900BE824E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360302092C26C8F900BE824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3603020B2C26C8F900BE824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360302172C26C9FB00BE824E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,12 @@
 		360301FC2C26C8F700BE824E /* InstagramFIrestoreTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				360302162C26C96600BE824E /* Utils */,
+				360302152C26C96200BE824E /* API */,
+				360302142C26C95A00BE824E /* Controller */,
+				360302132C26C95400BE824E /* ViewModel */,
+				360302122C26C94F00BE824E /* View */,
+				360302112C26C94A00BE824E /* Model */,
 				360301FD2C26C8F700BE824E /* AppDelegate.swift */,
 				360301FF2C26C8F700BE824E /* SceneDelegate.swift */,
 				360302012C26C8F700BE824E /* ViewController.swift */,
@@ -65,6 +73,49 @@
 				3603020B2C26C8F900BE824E /* Info.plist */,
 			);
 			path = InstagramFIrestoreTutorial;
+			sourceTree = "<group>";
+		};
+		360302112C26C94A00BE824E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		360302122C26C94F00BE824E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		360302132C26C95400BE824E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		360302142C26C95A00BE824E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				360302172C26C9FB00BE824E /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		360302152C26C96200BE824E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		360302162C26C96600BE824E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +191,7 @@
 			files = (
 				360302022C26C8F700BE824E /* ViewController.swift in Sources */,
 				360301FE2C26C8F700BE824E /* AppDelegate.swift in Sources */,
+				360302182C26C9FB00BE824E /* MainTabController.swift in Sources */,
 				360302002C26C8F700BE824E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
