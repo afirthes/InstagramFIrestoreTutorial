@@ -14,6 +14,11 @@
 		360302072C26C8F900BE824E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360302062C26C8F900BE824E /* Assets.xcassets */; };
 		3603020A2C26C8F900BE824E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 360302092C26C8F900BE824E /* Base */; };
 		360302182C26C9FB00BE824E /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360302172C26C9FB00BE824E /* MainTabController.swift */; };
+		3603021A2C26CBCD00BE824E /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360302192C26CBCD00BE824E /* FeedController.swift */; };
+		3603021C2C26D1CD00BE824E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603021B2C26D1CD00BE824E /* SearchController.swift */; };
+		3603021E2C26D1DA00BE824E /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603021D2C26D1DA00BE824E /* ImageSelectorController.swift */; };
+		360302202C26D1F800BE824E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603021F2C26D1F800BE824E /* NotificationController.swift */; };
+		360302222C26D20300BE824E /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360302212C26D20300BE824E /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		360302092C26C8F900BE824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3603020B2C26C8F900BE824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		360302172C26C9FB00BE824E /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		360302192C26CBCD00BE824E /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		3603021B2C26D1CD00BE824E /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		3603021D2C26D1DA00BE824E /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		3603021F2C26D1F800BE824E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		360302212C26D20300BE824E /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				360302172C26C9FB00BE824E /* MainTabController.swift */,
+				360302192C26CBCD00BE824E /* FeedController.swift */,
+				3603021B2C26D1CD00BE824E /* SearchController.swift */,
+				3603021D2C26D1DA00BE824E /* ImageSelectorController.swift */,
+				3603021F2C26D1F800BE824E /* NotificationController.swift */,
+				360302212C26D20300BE824E /* ProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,7 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				360302022C26C8F700BE824E /* ViewController.swift in Sources */,
+				3603021E2C26D1DA00BE824E /* ImageSelectorController.swift in Sources */,
+				360302202C26D1F800BE824E /* NotificationController.swift in Sources */,
+				3603021C2C26D1CD00BE824E /* SearchController.swift in Sources */,
 				360301FE2C26C8F700BE824E /* AppDelegate.swift in Sources */,
+				360302222C26D20300BE824E /* ProfileController.swift in Sources */,
+				3603021A2C26CBCD00BE824E /* FeedController.swift in Sources */,
 				360302182C26C9FB00BE824E /* MainTabController.swift in Sources */,
 				360302002C26C8F700BE824E /* SceneDelegate.swift in Sources */,
 			);
